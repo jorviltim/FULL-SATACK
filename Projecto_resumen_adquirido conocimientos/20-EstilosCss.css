@@ -1,0 +1,661 @@
+
+hr{
+    border: 10px solid red;
+}
+/*___________··········Bordes··········_________*/
+
+.borde1{
+    border: 2px solid red; /*manera sencilla rapida*/
+}
+
+.borde2{    /**/
+    border-width: 5px;    /* otramanera d hacer lo de border 1*/
+    border-style: dashed;
+    border-color: blue;
+
+}
+
+.borde3{
+    border-width: 5px;    
+    border-style: dotted;
+    border-color: purple;
+    border-radius: 10px; /* para darle curvatura a los bordes*/
+}
+
+.borde4{
+    border-width: 5px;   
+    border-style: double;
+    border-color: palegreen;
+    border-radius: 10px; /* para darle curvatura a los bordes*/
+}
+
+.borde5{
+    border-width: 5px;    
+    border-style: solid;
+    border-color: hsl(240, 50%, 85%);/* hsl(color,saturacion ,luminosidad)*/
+    border-radius: 10px; /* para darle curvatura a los bordes*/
+}
+
+.borde6{
+    border-width: 5px;    
+    border-style: solid;
+    border-color: rgba(255, 0, 255,50%);/* rgba(color,color,color,transparencia) */
+    border-radius: 10px; /* para darle curvatura a los bordes*/
+}
+
+.borde7{
+    border-width: 5px;    
+    border-style: double;
+    border-color: palegreen;
+    border-radius: 10px; /* para darle curvatura a los bordes*/
+}
+.borde8{
+    border-width: 5px;    
+    border-style: double;
+    border-color: hsl(240, 50%, 85%,0.9);/* hsl(color,saturacion ,luminosidad)*/
+    border-radius: 10px; /* para darle curvatura a los bordes*/
+}
+
+/*___________··········mas estilos de bordes··········_________*/
+
+.borde9{
+    border-width: 20px;    
+    border-style: groove;
+    border-color: rgba(255, 0, 255,50%);/* rgba(color,color,color,transparencia) */
+    border-radius: 10px; /* para darle curvatura a los bordes*/
+}
+
+.borde10{
+    border-width: 20px;   
+    border-style: ridge;
+    border-color: palegreen;
+    border-radius: 10px; /* para darle curvatura a los bordes*/
+}
+.borde11{
+    border-width: 20px;   
+    border-style: inset;
+    border-color: hsl(240, 50%, 85%,0.9);/* hsl(color,saturacion ,luminosidad)*/
+    border-radius: 10px; /* para darle curvatura a los bordes*/
+}
+
+.borde12{
+    border-width: 20px;    
+    border-style: outset;
+    border-color: rgba(255, 0, 255,50%);/* rgba(color,color,color,transparencia) */
+    border-radius: 10px; /* para darle curvatura a los bordes*/
+}
+
+.borde13{
+    border-width: 20px;    
+    border-style: none;
+    border-color: palegreen;
+    border-radius: 10px; /* para darle curvatura a los bordes*/
+}
+.borde14{
+    border-width: 20px;    
+    border-top-style:dashed ;/* - - - - */
+    border-bottom-style:dotted ;/* . . . . .*/
+    border-left-style: double;/* =====*/
+    border-right-style: hidden; /* oculto*/
+    border-color: hsl(240, 50%, 85%,0.9);/* hsl(color,saturacion ,luminosidad)*/
+    border-radius: 10px; /* para darle curvatura a los bordes*/
+}
+
+.borde15{
+    border-width: 20px;    
+    border-style: outset solid dashed none;
+    border-color: rgba(255, 0, 255,50%);/* rgba(color,color,color,transparencia) */
+    border-radius: 10px; /* para darle curvatura a los bordes*/
+}
+
+.borde16{
+    border-top-width: 50px; /*hacer que una parte sea mas grande*/
+    border-bottom-width: 5px;
+    border-left-width:10 ;
+    border-right-width:20 ;    
+    border-style: solid;
+    border-color: palegreen;
+    border-radius: 10px; /* para darle curvatura a los bordes*/
+}
+.borde17{
+    border-width: 5px;    
+    border-style: double;
+    border-color: palegreen;
+    border-radius: 10px; /* para darle curvatura a los bordes*/
+    outline-style: dotted;
+    outline-width: 12px;
+    outline-color: red;
+}
+.borde18{
+    margin: 50px;
+    border-width: 5px;    
+    border-style: double;
+    border-color: hsl(240, 50%, 85%,0.9);/* hsl(color,saturacion ,luminosidad)*/
+    border-radius: 10px; /* para darle curvatura a los bordes*/
+    outline-style: solid;
+    outline-width: 12px;
+    outline-color: blue;
+    outline-offset: 10px;
+    
+}
+
+
+/*___________··········mas estilos de bordes ··········_________*/
+.borde20{
+    border-width: 1cm;    /* otramanera d hacer lo de border 1*/
+    border-style: solid;
+    border-color: rgb(7, 7, 7);
+    border-radius: 10px; /* para darle curvatura a los bordes*/
+}
+.borde21{
+    border-width: 5mm;    /* otramanera d hacer lo de border 1*/
+    border-style: solid;
+    border-color: rgb(7, 7, 7);
+    border-radius: 10px; /* para darle curvatura a los bordes*/
+}
+.borde22{
+    border-width: 1in;    /* otramanera d hacer lo de border 1*/
+    border-style: solid;
+    border-color: rgb(7, 7, 7);
+    border-radius: 10px; /* para darle curvatura a los bordes*/
+}
+.borde23{
+    border-width: 5px;    /* otramanera d hacer lo de border 1*/
+    border-style: solid;
+    border-color: rgb(7, 7, 7);
+    border-radius: 10px; /* para darle curvatura a los bordes*/
+}
+.borde24{
+    border-width: 2em;      /* hace referencia al tamaño de 
+    terxto del elemento padre h2 por lo general el tamaño de h2
+     es 16px si tengo 2em seran 32 px de tamaño. */
+    border-style: solid;
+    border-color: rgb(7, 7, 7);
+    border-radius: 10px; /* para darle curvatura a los bordes*/
+}
+.borde25{
+    border-width: 2rem;    /* hace referencia al tamaño de 
+    terxto raiz en html por lo general 16 px por cada rem */
+    border-style: solid;
+    border-color: rgb(7, 7, 7);
+    border-radius: 10px; /* para darle curvatura a los bordes*/
+}
+
+/*___________··········cajas y sus bordes ··········_________*/
+
+.box1{
+    width: 100px;
+    height: 100px;
+    max-width: 100px;/*limita para que como maximo pueda aumentarse el tamaño
+     al ampliar o acortar la pagina a 100px*/
+    max-height:100px;/* lo mismo en altura*/
+    border: 5px solid green;
+    margin: 20px;/*separacion entre caja ladosde la caja*/
+    padding: 5px; /*separacion texto interno de la caja y e l borde de todos los lados.*/
+}
+
+.box2{
+    width:100px;
+    height:100px;
+    border: 5px solid green;
+    margin: 20px;/*separacion entre caja ladosde la caja*/
+    padding: 25px 45px; /*separacion entre arria y abajo 25px y los laterales 45px */
+}
+
+.box3{
+    width:100px;
+    height:100px;
+    border: 5px solid green;
+    margin: 20px;/*separacion entre caja ladosde la caja*/
+    padding: 5px 40px 25px; /*aplica en 5px top-40px ambos lados-25px bottom*/    
+}
+
+.box4{
+    width:100px;
+    height:100px;
+    border: 5px solid green;
+    margin: 20px;/*separacion entre caja ladosde la caja*/
+    padding: 5px 40px 25px 24px; /*aplica en 5px top-40px derecho-25px bottom-24px lado izquierdo*/    
+     
+    
+}
+
+.box5{
+    max-width:100px;
+    max-height:100px;
+    border: 5px solid green;
+    margin: 20px;/*separacion entre caja ladosde la caja*/
+    padding: 5px 40px 25px 24px; /*aplica en 5px top-40px derecho-25px bottom-24px lado izquierdo*/    
+  box-sizing: border-box;
+}
+
+.box6{
+    max-width:100px;
+    max-height:100px;
+    border: 5px solid green;
+    margin: 20px;/*separacion entre caja ladosde la caja*/
+    padding: 5px 40px 25px 24px; /*aplica en 5px top-40px derecho-25px bottom-24px lado izquierdo*/    
+  box-sizing: content-box;
+}
+.box7{
+    width:100px;
+    height:100px;
+    border: 5px solid green;
+    margin: 20px;/*separacion entre caja ladosde la caja*/
+    padding: 20px 20px 20px 20px; /*aplica en 5px top-40px 
+    derecho-25px bottom-24px lado izquierdo*/    
+  box-sizing: content-box; /*contenido sera 100px de ancho, + 20+20 de paddings
+   laterales + tamaño borde 5px+5px=150pxde ancho*/
+}
+.box8{
+    width:100px;
+    height:100px;
+    border: 5px solid green;
+    margin: 20px;/*separacion entre caja ladosde la caja*/
+    padding: 5px 40px 25px 24px; /*aplica en 5px top-40px derecho-25px bottom-24px lado izquierdo*/    
+    box-sizing: border-box;/*El tamaño total será 100px de ancho, y 
+    el contenido interno se ajustará para dejar espacio a los padding y borders.*/
+}
+/*RESUMEN DE BOX sizing:
+content-box (ancho total = contenido + padding + border)
+border-box (ancho total = fijo, incluye todo)
+*/
+
+/*___________··········margenes heredados y njo heredados ··········_________*/
+.box9{
+    width:200px;
+    height:200px;
+    border: 5px solid green;
+    margin: 20px;/*separacion entre caja ladosde la caja*/
+    padding: 20;     
+  
+}
+
+.box9 p{
+    margin: inherit;/*sirve para heredar el margin del div*/
+}
+.box10{
+    width:200px;
+    height:200px;
+    border: 5px solid green;
+    margin: 20px;/*separacion entre caja ladosde la caja*/
+    padding: 20; 
+  
+    
+}
+.box10 p{
+    margin: 40px;
+}
+
+.box11{
+    width:200px;
+    height:200px;
+    border: 5px solid green;
+    margin: 20px;/*separacion entre caja ladosde la caja*/
+    padding: 20; 
+  
+    
+}
+
+/*___________··········FORMATOS DE TEXTO ··········_________*/
+
+.box11 p{
+    margin: 40px;
+    text-decoration: underline;/*Subrayado debajo del texto*/
+    text-decoration-color: blue;
+    text-decoration-style: wavy;/* solid,dashed,dotted...*/
+    text-decoration-thickness: 2px;/* grosor de las lineas en texto...*/
+
+}
+.box12{
+    width:200px;
+    height:200px;
+    border: 5px solid green;
+    margin: 20px;/*separacion entre caja ladosde la caja*/
+    padding: 20; 
+  
+    
+}
+.box12 p{
+    margin: 40px;
+    text-decoration: overline;/*Subrayado debajo del texto*/
+    text-decoration-color: #ff00f7;
+    text-decoration-style: solid;/* solid,dashed,dotted...*/
+    text-decoration-thickness: 2px;/* grosor de las lineas en texto...*/
+
+}
+.box13{
+    width:200px;
+    height:200px;
+    border: 5px solid green;
+    margin: 20px;/*separacion entre caja ladosde la caja*/
+    padding: 20; 
+  
+    
+}
+.box13 p{
+    margin: 40px;
+    color: antiquewhite;/* color de  texto*/
+    background-color: blue;/* color de fondo texto*/
+    text-decoration: line-through;/*Subrayado debajo del texto*/
+    text-decoration-color: #e1ff00;/*color de la linea de texto*/
+    text-decoration-style: solid;/* solid,dashed,dotted...*/
+    text-decoration-thickness: 2px;/* grosor de las lineas en texto...*/
+
+}
+
+/*___________·····formatos de texto ·····espacios en textos y letras ··········_________*/
+
+.entreLetras{
+    letter-spacing: 5px;
+    }
+    
+.entreTexto{
+    word-spacing: 60px;
+    }
+
+.mayuscula{
+    text-transform: uppercase;
+        }
+        
+.minusculas{
+    text-transform: lowercase;
+        }
+    
+.mayusminus{
+    text-transform: capitalize;
+}
+
+.sombras{
+    letter-spacing: 10px;
+    text-shadow: 20px 10px 5px red;/*longitud horizontal de sombra- dimension 
+    vertical de sombra-bluer o difuminado-color de sombra
+    }
+
+
+.box14{
+    width:200px;
+    height:200px;
+    border: 5px solid green;
+    margin: 20px;/*separacion entre caja ladosde la caja*/
+    padding: 20; 
+  
+    
+}
+.box14 p{
+    text-align: left;
+    text-decoration: underline;/*Subrayado debajo del texto*/
+    text-decoration-color: blue;
+    text-decoration-style: wavy;/* solid,dashed,dotted...*/
+    text-decoration-thickness: 2px;/* grosor de las lineas en texto...*/
+}
+.box15{
+    width:200px;
+    height:200px;
+    border: 5px solid green;
+    margin: 20px;/*separacion entre caja ladosde la caja*/
+    padding: 20; 
+  
+    
+}
+.box15 p{
+    text-align: center;
+    text-decoration: underline;/*Subrayado debajo del texto*/
+    text-decoration-color: blue;
+    text-decoration-style: wavy;/* solid,dashed,dotted...*/
+    text-decoration-thickness: 2px;/* grosor de las lineas en texto...*/
+}
+
+.box16{
+    width:200px;
+    height:200px;
+    border: 5px solid green;
+    margin: 20px;/*separacion entre caja ladosde la caja*/
+    padding: 20; 
+  
+    
+}
+.box16 p{
+    text-align: right;
+    text-decoration: underline;/*Subrayado debajo del texto*/
+    text-decoration-color: blue;
+    text-decoration-style: wavy;/* solid,dashed,dotted...*/
+    text-decoration-thickness: 2px;/* grosor de las lineas en texto...*/
+}
+
+.box17{
+    width:300px;
+    height:300px;
+    border: 5px solid green;
+    margin: 20px;/*separacion entre caja ladosde la caja*/
+    padding: 20; 
+  
+    
+}
+.box17 p{
+    text-align: justify;
+    text-decoration: underline;/*Subrayado debajo del texto*/
+    text-decoration-color: blue;
+    text-decoration-style: wavy;/* solid,dashed,dotted...*/
+    text-decoration-thickness: 2px;/* grosor de las lineas en texto...*/
+}
+
+.box18{
+    width:300px;
+    height:300px;
+    border: 5px solid green;
+    margin: 20px;/*separacion entre caja ladosde la caja*/
+    
+  
+    
+}
+.box18 p{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black ;
+    text-align: justify;
+    text-decoration: underline;/*Subrayado debajo del texto*/
+    text-decoration-color: blue;
+    text-decoration-style: wavy;/* solid,dashed,dotted...*/
+    text-decoration-thickness: 2px;/* grosor de las lineas en texto...*/
+}
+.box19{
+    width:300px;
+    height:300px;
+    border: 5px solid green;
+    margin: 20px;/*separacion entre caja ladosde la caja*/
+    
+  
+    
+}
+.box19 p{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black ;
+    text-indent: 20px;/*separacion solo del texto de la primera linea
+    text-align: justify;
+    text-decoration: underline;/*Subrayado debajo del texto*/
+    text-decoration-color: blue;
+    text-decoration-style: wavy;/* solid,dashed,dotted...*/
+    text-decoration-thickness: 2px;/* grosor de las lineas en texto...*/
+}
+
+.box20{
+    width:300px;
+    height:300px;
+    border: 5px solid green;
+    margin: 20px;/*separacion entre caja ladosde la caja*/
+    
+  
+    
+}
+.box20 p{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black ;
+    text-align: justify;
+    text-align-last:left;
+    text-decoration: underline;/*Subrayado debajo del texto*/
+    text-decoration-color: blue;
+    text-decoration-style: wavy;/* solid,dashed,dotted...*/
+    text-decoration-thickness: 2px;/* grosor de las lineas en texto...*/
+}
+.box21{
+    width:300px;
+    height:300px;
+    border: 5px solid green;
+    margin: 20px;/*separacion entre caja ladosde la caja*/
+    
+  
+    
+}
+.box21 p{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black ;
+    text-align: justify;
+    text-align-last:center;
+    text-decoration: underline;/*Subrayado debajo del texto*/
+    text-decoration-color: blue;
+    text-decoration-style: wavy;/* solid,dashed,dotted...*/
+    text-decoration-thickness: 2px;/* grosor de las lineas en texto...*/
+}
+
+.box22{
+    width:400px;
+    height:300px;
+    border: 5px solid green;
+    margin: 20px;/*separacion entre caja ladosde la caja*/
+    
+  
+    
+}
+.box22 p{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black ;
+    text-align: justify;
+    text-align-last:right;
+    text-decoration: underline;/*Subrayado debajo del texto*/
+    text-decoration-color: blue;
+    text-decoration-style: wavy;/* solid,dashed,dotted...*/
+    text-decoration-thickness: 2px;/* grosor de las lineas en texto...*/
+}
+
+.box23{
+    width:400px;
+    height:300px;
+    border: 5px solid green;
+    margin: 20px;/*separacion entre caja ladosde la caja*/
+    
+  
+    
+}
+.box23 p{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black ;
+    text-align: justify;
+    text-align-last:justify;
+    text-decoration: underline;/*Subrayado debajo del texto*/
+    text-decoration-color: blue;
+    text-decoration-style: wavy;/* solid,dashed,dotted...*/
+    text-decoration-thickness: 2px;/* grosor de las lineas en texto...*/
+}
+
+.box24{
+    width:400px;
+    height:300px;
+    border: 5px solid green;
+    margin: 20px;/*separacion entre caja ladosde la caja*/
+    
+  
+    
+}
+.box24 p{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black ;
+    text-align: justify;
+    text-align-last:justify;
+    line-height: 45px; /* Distancia entre lineas */
+    text-decoration: underline;/*Subrayado debajo del texto*/
+    text-decoration-color: blue;
+    text-decoration-style: wavy;/* solid,dashed,dotted...*/
+    text-decoration-thickness: 2px;/* grosor de las lineas en texto...*/
+}
+
+/*___________·····fondos dentro de cajas ··········_________*/
+.fondo1{
+    width:200px;
+    height:200px;
+    border: 5px solid green;
+    margin: 20px;/*separacion entre caja ladosde la caja*/
+    background: linear-gradient(blue,green,red);
+}
+.fondo2{
+    width:200px;
+    height:200px;
+    border: 5px solid green;
+    margin: 20px;/*separacion entre caja ladosde la caja*/
+    background: linear-gradient(to right ,blue,green,red);
+}
+.fondo3{
+    width:200px;
+    height:200px;
+    border: 5px solid green;
+    margin: 20px;/*separacion entre caja ladosde la caja*/
+    background: linear-gradient(to left ,blue,green,red);
+}
+
+.fondo4{
+    width:200px;
+    height:200px;
+    border: 5px solid green;
+    margin: 20px;/*separacion entre caja ladosde la caja*/
+    background: linear-gradient(to bottom right ,blue,green,red);
+}
+.fondo5{
+    width:200px;
+    height:200px;
+    border: 5px solid green;
+    margin: 20px;/*separacion entre caja ladosde la caja*/
+    background: linear-gradient(to bottom left ,blue,green,red);
+}
+.fondo6{
+    width:200px;
+    height:200px;
+    border: 5px solid green;
+    margin: 20px;/*separacion entre caja ladosde la caja*/
+    background: radial-gradient(blue,green,red);
+}
+.fondo7{
+    width:200px;
+    height:200px;
+    margin 20px auto;
+    border: 5px solid green;
+    margin: 20px;/*separacion entre caja ladosde la caja*/
+    background: conic-gradient(blue,green,red);
+}
+
+/*___________·····sombras en cajas ··········_________*/
+.fondo8{
+    width:200px;
+    height:200px;
+    margin 20px auto;
+    border: 5px solid green;
+    margin: 20px;/*separacion entre caja ladosde la caja*/
+    background: conic-gradient(blue,green,red);
+
+    box-shadow: 10px 10px 5px 2px blue;
+}
+.fondo9{
+    width:200px;
+    height:200px;
+    margin 20px auto;
+    border: 5px solid green;
+    margin: 20px;/*separacion entre caja ladosde la caja*/
+    background: conic-gradient(blue,green,red);
+
+    box-shadow: 10px 10px 5px 2px blue,20px 20px 10px 4px green;
+}

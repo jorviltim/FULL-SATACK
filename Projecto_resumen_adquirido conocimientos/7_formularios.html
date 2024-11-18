@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="img/LogoArsPlc.jpg"><!--Muestra el logo en la pestaña-->
+    
+    <title>7.Formularios</title>
+</head>
+<body>
+    <header><!--ENCABEZAD DE pagina -->
+        <h1><strong>Pagina 7 Formularios</strong></h1><!--esto es un titluode h1 a h6 -->
+        <p>Porfavor elije un link para acceder a su explicación</p>
+        
+        <nav> <!--Caja para la  lista de menus de navegación por la pagina web-->
+           
+            <link rel="stylesheet" href=""> <!--para enlazar paginas de estilos-->
+
+
+            <ol><!--Listado del menu principal para seleccionar pagina -->
+                <li><!--en el menu para cambiar de pagina 0 a pagina 1-->
+                    <a href="0_index.html">
+                     Index
+                    </a><!--en el menu para cambiar de pagina 0 a pagina 1-->
+
+                </li>
+
+                <li><!--en el menu para cambiar de pagina 0 a pagina 2-->
+                    <a href="1_encabezados.html">
+                     Encabezados
+                    </a>
+
+                </li>
+
+                <li><!--en el menu para cambiar de pagina 0 a pagina 3-->
+                    <a href="2_listas.html">
+                     Listas
+                    </a>
+
+                </li>
+
+                <li><!--en el menu para cambiar de pagina 0 a pagina 3-->
+                    <a href="3_anclajes.html">
+                     Anclajes
+                    </a>
+                 </li>
+
+                <li>
+                    <a href="4_imagenes.html">
+                     Imagenes 
+                    </a><!--en el menu para cambiar de pagina 0 a pagina 3-->
+                </li>
+
+                <li>
+                    <a href="5_videos.html">
+                     Videos 
+                    </a><!--en el menu para cambiar de pagina 0 a pagina 3-->
+                </li>
+
+                <li>
+                    <a href="6_songs.html">
+                     Songs
+                    </a><!--en el menu para cambiar de pagina 0 a pagina 3-->
+                </li>
+
+                <li>
+                    <a href="8_tablas.html">
+                     Tablas
+                    </a><!--en el menu para cambiar de pagina 0 a pagina 3-->
+                </li>
+
+                <li>
+                    <a href="9_estiloscss.html">
+                     estilos css
+                    </a><!--en el menu para cambiar de pagina 0 a pagina 9-->
+                </li>
+                
+                <li>
+                  <a href="21-bordesCss.html">
+                   bordes, formato textos,y cajas
+                  </a><!--en el menu para cambiar de pagina 0 a pagina 9-->
+              </li>
+
+            </ol>
+
+        </nav>
+    </header>
+
+    <hr><!--barra horizontal para  separar la lista de lo que viene a continuación -->
+    
+    <main>
+        <section>
+            <article>
+                <h2>FORMULARIOS </h2>
+
+            </article>
+            <!--method=post : Especifica que los datos del formulario se enviarán usando el método HTTP POST. 
+            Este método es útil cuando se envía información confidencial o grandes cantidades de datos, 
+            ya que los datos no se muestran en la URL (a diferencia del método GET) -->
+
+            <!--action= "enlaces.html" Indica la URL o la ruta del archivo que procesará los datos
+             del formulario una vez enviados. En este caso, el formulario envía la información a enlaces.html.-->
+
+            <!--enctype="application/x-www-form-urlencoded" (por defecto)
+            Este es el valor predeterminado y se utiliza cuando los datos son de texto. Codifica los datos como pares 
+            clave-valor en formato URL (como cuando se envían parámetros en una URL).
+            Es ideal para formularios simples, sin archivos.--> 
+
+            <!--enctype="multipart/form-data" Este valor se utiliza cuando el formulario incluye archivos
+            (como imágenes o documentos) que necesitan ser enviados al servidor. Con esta codificación, el navegador 
+            envía los datos en partes separadas (o "segmentos") y permite el envío de datos binarios (como archivos).-->
+
+            <!--enctype="text/plain" Este tipo es poco común y envía los datos sin ningún tipo de codificación especial,
+            en formato de texto sin procesar. Es útil principalmente para pruebas y depuración, pero no se 
+            recomienda para formularios en producción debido a la falta de codificación y seguridad.-->
+
+            <form method="post" action="enlaces.html" enctype="text/plain">
+                <caption>Formulario con boton dentro de formulario</caption>
+                <br>
+                <!-- input marca que va usar una entrada-->
+                <!-- type="text" que va usar  un cuadro de texto-->
+                <!-- for="nombre" hace que al seleccionar el textop de la etiqueta te acceda dentro del 
+                recuadro de texto para que empieces a escribir-->
+                <!-- name="nombre"  es  el campo donde se va a poner los datos de la entrada ejemplo en la
+                otra pagina donde va a recibir el dato , hay un campo con el texto "nombre" donde se rellenaria
+                con lo que escribamos en el formulario -->
+
+                <!--La id=nombre es un identificador de la etiqueta, ya sea para la funcion de clicar 
+                con for=nombre o para realizar movimientos de pagina donde este este identificador o crear classes-->
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" placeholder="pon el nombre">
+                <!-- este boton al estar dentro de formulario hara la funcion de <form type="submit"> -->
+                <button type="submit">Enviar</button>
+            </form>
+
+
+        </section>
+        
+        <hr>
+        
+        <section>
+            <article>
+                <h2>Formulario  con  boton a partir de type = subm,it</h2>
+            </article>
+            
+            <form method="post" action="enlaces.html" enctype="text/plain">
+                <caption>Formulario con boton dentro de formulario</caption>
+                <br>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="pon el nombre">
+                
+                <!-- ete input  crea un boton para enviar y "value es para nombrar el boton" -->
+                <input type="submit" value="Enviar">
+            </form>
+
+        </section>
+        
+        <hr>
+
+        <section>
+            <article>
+                <h2>Formulario  con  boton a partir de type = subm,it</h2>
+            </article>
+            
+            <form method="post" action="enlaces.html" enctype="text/plain">
+                <caption>Formulario con email</caption>
+                <br>
+                <label for="email">e-mail:</label>
+                <input type="email" name="email" id="email" placeholder="pon el email">
+                
+                <!-- ete input  crea un boton para enviar y "value es para nombrar el boton" -->
+                <input type="submit" value="Enviar">
+            </form>
+
+        </section>
+
+        <hr>
+
+        <section>
+            <article>
+                <h2>Formulario  con  boton a partir de type = subm,it</h2>
+            </article>
+            
+            <form method="post" action="enlaces.html" enctype="text/plain">
+                <caption>Formulario con edad</caption>
+                <br>
+                <label for="edad">edad:</label>
+                <input type="number" name="edad" id="edad" placeholder="pon la edad">
+                <br>
+                <div>
+                    <caption> seleciona</caption><br>
+                    <label for="genero">Genero</label>
+                    <select name="genero" id="genero">
+                        <option name="hombre" value="hombre">Hombre</option>
+                        <option name="mujer" value="mujer">Mujer</option>
+                    </select>
+                </div>
+                
+                <br>
+                
+                <div>
+                    <label for="motivo">Motivo</label>
+                    <textarea 
+                      name="motivo" 
+                      id="motivo"  
+                      placeholder="escribe un motivo">
+                    </textarea>
+
+                </div>
+                <br>
+
+
+
+                <!-- ete input  crea un boton para enviar y "value es para nombrar el boton" -->
+                <input type="submit" value="Enviar">
+            </form>
+
+        </section>
+
+    </main>
+</body>
+</html>
